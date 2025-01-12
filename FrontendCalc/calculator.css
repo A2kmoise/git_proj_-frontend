@@ -1,0 +1,40 @@
+#keys{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap:10px;
+padding:25px;
+}
+button{
+    width: 80px;
+    height: 65px;
+    border-radius: 50px;
+    border:none;
+    background-color: hsl(8,10%,30%);
+    color:aliceblue;
+    size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: xx-large;
+}
+input{
+    border-color: hsl(200,40%,40%);
+    border: none;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#clear{
+    background-color: red;
+}
+.operator{
+    background-color: darkgoldenrod;
+}
+fieldset{
+    background-color: hsl(200,40%,40%);
+    border-radius: 20px;
+    border:none;
+}
